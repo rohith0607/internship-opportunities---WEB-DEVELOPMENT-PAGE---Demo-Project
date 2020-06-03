@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+<head>
+	<meta charset="UTF-8">
+	<title>Internship Opportunities</title>
+	<link rel="icon" href="images/intern.png" type="image/icon type">
+	<link rel="stylesheet"  href="css/style.css">
+	<meta name="viewport" content="width=device-width,initial-scale=1">
+
+
+
+		<script>
+       		function newentryFunction()
+       		{
+       			var internship_title = prompt("internship title");
+				var internship_info = prompt("internship info");
+				var internship_duration = prompt("internship duration");
+				var website_url = prompt("website url");
+
+
+
+				document.write("<a href='#'> <li class='listing clearfix'> <div class='image_wrapper'> <img src='images/webdev.png' alt='web_development_image'></div><div class='info'><span class='internship_title'>" + internship_title + "</span><span class='internship_info'><br>" + internship_info + "<br>Website URL:<a href='"+ website_url + "'>" + website_url + "</a></span></div><span class='internship_duration'><br>Duration:<br>" + internship_duration + "<br></span><button class='button'>Apply</button></li></a>");					
+  			}
+
+      	</script>
+
+
+
+
+</head>
+
+
+<body>
+	
+
+<div class="wrapper1">
+	<header class="main_header clearfix">
+	<div class="logo">
+		<img src="images/intern.png" alt="Internship-logo">
+		<h1>Summer <span>Internships</span></h1>
+	</div>
+	<nav class="nav">
+	 	<a href="WDproj.html">Home</a>
+	 	<a href="internship.html" class="active">Internships</a>
+	 	
+	 </nav>		
+	</header>
+
+</div>
+<br>
+
+
+			
+
+<main>
+<div class="wrapper2">
+
+<ul id="timeline">
+	
+	<a href="#">
+		<li class="listing clearfix">
+			<div class="image_wrapper">
+				<img src="images/webdev.png" alt="web_development_image">
+			</div>
+			<div class="info">
+				<span class="internship_title">Web Development</span>
+				<span class="internship_info">Develop a website
+					<span>&bull;</span>India <span>&bull;</span>July 3rd <br>
+					<span>&bull;</span>Description:This is a web development internship.<br><span>&bull;</span>Website URL:<a href="#">*website URL</a></span>
+			</div>
+			<span class="internship_duration">Duration:3 Months</span>
+			<button class="button">Apply</button>
+			</li>
+	</a>
+
+
+	<a href="#">
+		<li class="listing clearfix">
+			<div class="image_wrapper">
+				<img src="images/webdev.png" alt="web_development_image">
+			</div>
+			<div class="info">
+				<span class="internship_title">Web Development</span>
+				<span class="internship_info">Develop a website
+					<span>&bull;</span>India <span>&bull;</span>July 10th <br>
+					<span>&bull;</span>Description:This is a web development internship.<br><span>&bull;</span>Website URL:<a href="#">*website URL</a></span>
+			</div>
+			<span class="internship_duration">Duration:5 Months</span>
+			<button class="button">Apply</button>
+		</li>
+	</a>
+
+
+
+	<a href="#">
+		<li class="listing clearfix">
+			<div class="image_wrapper">
+				<img src="images/webdev.png" alt="web_development_image">
+			</div>
+			<div class="info">
+				<span class="internship_title">Web Development</span>
+				<span class="internship_info">Develop a website
+					<span>&bull;</span>India <span>&bull;</span>July 4th
+					 <br>
+					<span>&bull;</span>Description:This is a web development internship.<br><span>&bull;</span>Website URL:<a href="#">*website URL</a>
+				</span>
+			</div>
+			<span class="internship_duration">Duration:6 Months</span>
+			<button class="button">Apply</button>
+		</li>
+	</a>
+
+
+
+			<form><input type="button" id="same" name="same" value="Add new internship" onclick="newentryFunction()"/></form>
+
+
+
+</ul>
+</div>
+
+	
+
+
+</main>
+	<footer>
+		<p>This page is created by V Sai Rohith. This page is a demo project for internship.</p>
+		<p>Copyrights &copy 2020</p>
+		<p><a href="mailto:vsairohith67@gmail.com?subject = Feedback&body = Message">Email: vsairohith67@gmail.com</a></p>
+
+	</footer>
+</body>	
+
+
+
+</html>
